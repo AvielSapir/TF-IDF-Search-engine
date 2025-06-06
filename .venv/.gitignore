@@ -1,15 +1,6 @@
 # Python
 *.pyc
 __pycache__/
-*.so
-*.egg
-*.egg-info
-.coverage
-.pytest_cache/
-.tox/
-dist/
-build/
-*.whl
 
 # PyCharm specific
 .idea/
@@ -17,7 +8,3 @@ build/
 
 # Virtual environment
 .venv/
-venv/
-env/
-Lib .venv
-Scripts/.venv
