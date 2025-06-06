@@ -1,2 +1,0 @@
-Artificial intelligence (AI) is transforming various industries.
-Machine learning, a subset of AI, enables systems to learn from data without explicit programming. Deep learning models are particularly effective in tasks like image recognition and natural language processing. The future of technology heavily relies on advancements in AI.
