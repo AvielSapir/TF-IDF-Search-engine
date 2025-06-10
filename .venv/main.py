@@ -178,8 +178,14 @@ while True:
 
     print("\n[*] Search Results:")
     if searchResults:
+        sum = 0
         for score, filename in searchResults[:5]:
-            print(f"     | {filename}: Similarity = {score:.3f}")
+            sum += score
+
+
+
+        for score, filename in searchResults[:5]:
+            print(f"     | {filename}: Similarity = {(100*score) / sum:.2f}%")
         if len(searchResults) > 5:
             print(f"  ({len(searchResults) - 5} more results...)")
     else:
